@@ -47,5 +47,5 @@
     "eslint": "^6.5.1",
     "mocha": "^6.2.2"
   },
-  "typings: "spelling.d.ts"
+  "typings": "spelling.d.ts"
 }
