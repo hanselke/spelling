@@ -6,6 +6,10 @@ declare module 'spelling' {
     remove(word: string): Spelling;
     search(prefix: string, opts?: { depth?: number }): SearchResult[];
   }
+  interface SearchResult {
+    word: string;
+    rank: number;
+  }
 
   interface SearchResult {
     found: boolean;
@@ -13,6 +17,7 @@ declare module 'spelling' {
     rank?: number;
     suggestions?: SearchResult[];
   }
+  
 
   export default Spelling;
 }
