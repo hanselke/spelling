@@ -14,7 +14,7 @@ declare module 'spelling' {
   interface SearchResult {
     found: boolean;
     word: string;
-    rank?: number;
+    rank: number;
     suggestions?: SearchResult[];
   }
   
